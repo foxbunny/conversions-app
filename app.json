@@ -1,0 +1,10 @@
+{
+  "id": "converter",
+  "title": "Simple Unit Converter",
+  "version": "0.1",
+  "author": "Ben",
+  "description": {
+    "en": "Convert measurements, temperatures, and other data"
+  },
+  "icon_behavior": true
+}

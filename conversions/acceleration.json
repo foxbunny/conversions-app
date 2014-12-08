@@ -1,0 +1,5 @@
+{
+	"acceleration": { 
+		"unit": ["Meter/sq.sec (m/sec^2)", "Foot/sq.sec (ft/sec^2)", "G (g)", "Galileo (gal)", "Inch/sq.sec (in/sec^2)" ], 
+		"factor": [ 1, .3048, 9.806650, .01, 2.54E-02 ] 
+	}}

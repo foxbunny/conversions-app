@@ -1,0 +1,5 @@
+{
+	"volume flow": { 
+		"unit": ["Cubic meter/second", "Cubic foot/second", "Cubic foot/minute", "Cubic inches/minute", "Gallons (US,liq)/minute)"], 
+		"factor": [1, .02831685, .0004719474, 2.731177E-7, 6.309020E-05] 
+	}}

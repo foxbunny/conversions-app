@@ -1,0 +1,5 @@
+{
+	"force": { 
+		"unit": ["Newton (N)", "Dyne (dy)", "Kilogram force (kgf)", "Kilopond force (kpf)", "Kip (k)", "Ounce force (ozf)", "Pound force (lbf)", "Poundal"], 
+		"factor": [1, .00001, 9.806650, 9.806650, 4448.222, .2780139, .4535924, .138255] 
+	}}

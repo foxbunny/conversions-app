@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Outernet Unit Converter</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <h1>Outernet Unit Converter</h1>
+	<ul class='mytable'>
+		<li>
+			<FORM name="property_form" >
+				<b>Property:</b>
+				<SELECT NAME="the_menu" size=1 onChange="UpdateUnitMenu(this, document.form_A.unit_menu); UpdateUnitMenu(this, document.form_B.unit_menu)">
+				<OPTION>_____________________________
+<!-- The underscore line above pre-stretches the drop-down menu to a sufficient length -->
+				<option>
+				<option>
+				<option>
+				<option>
+				<option>
+				</SELECT>
+			</FORM>
+			<SCRIPT LANGUAGE="JavaScript">
+				<!-- ;
+				// This fragment initializes the property dropdown menu using the data defined
+				// above in the 'Data Definitions' section
+				FillMenuWithArray(document.property_form.the_menu, property);
+				// end hide -->
+			</SCRIPT>
+		</li>
+		<li>
+			<FORM name="form_A" onSubmit="return false">
+				<b>A</b>
+				<SELECT NAME="unit_menu">
+				<OPTION>------- Select a Property -------
+				<option>
+				<option>
+				<option>
+				<option>
+				<option>
+				</SELECT>
+				<INPUT TYPE="text" NAME="unit_input" SIZE="20" MAXLENGTH="20" VALUE="">
+				<INPUT TYPE="button" name="unit_submit" VALUE="Convert to B" onClick="CalculateUnit(this.form, document.form_B)">
+			</form>
+		</li>
+		<li>
+			<form name="form_B" onSubmit="return false">
+				<b>B</b>
+				<SELECT NAME="unit_menu">
+				<OPTION>------- Select a Property -------
+				<option>
+				<option>
+				<option>
+				<option>
+				<option>
+				</SELECT>
+				<INPUT TYPE="text" NAME="unit_input" SIZE="20" MAXLENGTH="20" VALUE="">
+				<INPUT TYPE="button" name="unit_submit" VALUE="Convert to A" onClick="CalculateUnit(this.form, document.form_A)">
+			</FORM>
+		</li>
+		<li>
+			<form name="util_form">
+				<INPUT TYPE="button" name="clear_form" VALUE=" Clear Form " onClick="ClearForm()">
+			</form>
+		</li>
+	</ul>
+<!--*** To show if unit, factor, and property[0] have been set*************************-->
+	<p id="demo">unchanged</p>
+	<script> document.getElementById("demo").innerHTML = property[0] + "<br>" + unit[0][1] + "<br>" + unit[0][2] + "<br>" + unit[0][3] + "<br>" + unit[0][0] + "<br>" + unit[0][4] + "<br>" + factor[0][1] ;</script>
+<!--*** Done ^^^ ********************************************************************-->
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/librarian.js"></script>
+    </body>
+</html>
