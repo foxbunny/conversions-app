@@ -1,5 +1,0 @@
-{
-	"mass flow": { 
-		"unit": ["Kilogram/second (kgr/sec)", "Pound mass/sec (lbm/sec)", "Pound mass/min (lbm/min)"], 
-		"factor": [1, .4535924, .007559873] 
-	}}

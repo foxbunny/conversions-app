@@ -1,5 +1,0 @@
-{
-	"torque": { 
-		"unit": ["Newton-meter (N m)", "Dyne-centimeter(dy cm)", "Kgrf-meter (kgf m)", "lbf-inch (lbf in)", "lbf-foot (lbf ft)"], 
-		"factor": [1, .0000001, 9.806650, .1129848, 1.355818] 
-	}}

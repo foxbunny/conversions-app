@@ -1,5 +1,0 @@
-{
-	"force-length": { 
-		"unit": ["Newton/meter (N/m)", "Pound force/inch (lbf/in)", "Pound force/foot (lbf/ft)"], 
-		"factor": [1, 175.1268, 14.5939] 
-	}}
