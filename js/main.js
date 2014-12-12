@@ -149,7 +149,7 @@ $('.units').on('focus', 'a', function (e) {
   $('.output').html('')
   selectUnit = $(this).text();
   selectedUnit.text(selectUnit);
-  $('#input').html('<input type="text" value="" maxlength="20" size="20" id="inputForm"></input><input type="button" value="Convert value" id="submitUnit" onclick="press()"></input>');
+  $('#input').html('Numbers only please!<br><input type="text" value="" maxlength="20" size="20" id="inputForm"></input><input type="button" value="Convert value" id="submitUnit" onclick="press()"></input>');
 });
 //-- output based on selected category and unit
 function press() {
@@ -165,7 +165,8 @@ function press() {
             var c;
             for (c=0; c < factor[i].length; c++) {
               $('.output').append('Output for ' + unit[i][b] + ' to ' + unit[i][c] + ' was ' + base / factor[i][c] + '<br>');
-        }}}}}};
+            }
+          }}}}};
 $('#input').on('change', '#inputForm', function() {
   press();
 });
