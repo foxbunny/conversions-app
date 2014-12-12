@@ -172,3 +172,7 @@ $('#input').on('change', '#inputForm', function() {
 $('#input').on('keyup', '#inputForm', function() {
   press();
 });
+$('#input').on('input', '#inputForm', function() {
+  $('#input').off('keyup', '#inputForm');
+  press();
+});
