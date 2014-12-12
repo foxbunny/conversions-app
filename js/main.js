@@ -166,4 +166,9 @@ function press() {
             for (c=0; c < factor[i].length; c++) {
               $('.output').append('Output for ' + unit[i][b] + ' to ' + unit[i][c] + ' was ' + base / factor[i][c] + '<br>');
         }}}}}};
-
+$('#input').on('change', '#inputForm', function() {
+  press();
+});
+$('#input').on('keyup', '#inputForm', function() {
+  press();
+});
